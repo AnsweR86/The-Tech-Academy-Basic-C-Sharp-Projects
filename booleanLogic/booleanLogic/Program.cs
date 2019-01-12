@@ -25,7 +25,9 @@ namespace booleanLogic
             int ticketCount = Convert.ToInt32(ticket);
 
             bool Qualified = (currentAge > 15 && hadDUI == false && ticketCount <= 3);
-            string qualification =Convert.ToString(Qualified);
+            string qualification = Convert.ToString(Qualified);
+                Console.WriteLine("Sorry! Currently Not Qualified");
+            Console.ReadLine();
             
             if (true)
             {
