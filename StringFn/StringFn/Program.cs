@@ -10,26 +10,32 @@ namespace StringFn
     {
         static void Main(string[] args)
         {
-            string fName = "Jinho";
-            string lName = "Chang";
-            string date = DateTime.Today.ToShortDateString();
 
 
             //Concatenate 3 Strings
-            //// Use the + and += operators for one-time concatenations.
-            //string str = "Hello " + fName + lName + ". Today is " + date + ".";
+            // Use the + and += operators for one-time concatenations.
+            string strConcat = "\" Hello ! to  the World! \n Hope Everyone had good \n holidays.\n";
+            string strConcat2 = "Hope on 2019,\n we all be Healty and Happy\n and full with Joy\n";
+
+            Console.WriteLine(strConcat + strConcat2);
             
-            //UPPER CASE
-            //str = str.ToUpper();
+            
+           //UPPER CASE
+            string strConcat3 = "Knowledge is matter of winning or losing\n Wisdom is matter of \n life and death.";
+            Console.WriteLine(strConcat3.ToUpper());
 
             //Stringbuilder Paragraph
             StringBuilder sb = new StringBuilder();
-            sb.Append("\t My name is JinhoChang and today is " + date + "\n its Very Nice outside today.\n We Should all go out side and play sports! \n It will be Very FUN!!");
+            sb.Append("\t Hey wanna hear joke?");
+            sb.Append("\n she said \"Knock! Knock!\" then I said\" Whose is there?");
+            sb.Append("  \nBirtney Spears!\" said from her.");
+            sb.Append("  \"Birtney Spears who?\" I asked.");
+            sb.Append("\n she said\"Oops I did it agian\" then we laugh at loud. ");
+                
 
 
-
-            System.Console.WriteLine(sb);
-            Console.ReadLine();
+               Console.WriteLine(sb);
+               Console.ReadLine();
         }
        
     }
