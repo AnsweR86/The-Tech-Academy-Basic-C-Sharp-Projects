@@ -14,6 +14,7 @@ namespace Loops
             int number = Convert.ToInt32(Console.ReadLine());
             bool isRight = number == 9;
             do
+         
             {
 
                 switch (number)
@@ -47,8 +48,11 @@ namespace Loops
             }
 
             while (!isRight);
-            
-            Console.ReadLine();
+
+           
         }
-    }
-}
+
+       }
+    };
+
+         
